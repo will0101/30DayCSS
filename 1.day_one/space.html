@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Give it some space</title>
+  <style>
+    body {
+      padding: 1em;
+    }
+    .container {
+      display: flex;
+      /* Gap is not supported in all browsers, but it's useful for adding space between flex items */
+      gap:2rem;
+    }
+
+    p {
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <h1>Let the content breath</h1>
+  <p>Setting padding gets the content of the edges of the browser</p>
+  <div class="container">
+    <div>
+      <h2>Cool</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio laboriosam nam quod porro nemo dolor quasi distinctio est! Vero, voluptatum?</p>
+    </div>
+    <div>
+      <h2>Cool 2</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit quasi a itaque, rem necessitatibus facilis est veniam voluptatem laudantium natus?</p>
+    </div>
+    <div>
+      <h2>Cool 3</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam perspiciatis unde beatae quae eveniet expedita, dicta quisquam veritatis reprehenderit deserunt consectetur voluptatem consequatur, asperiores molestias obcaecati cum minima soluta aut incidunt? Pariatur inventore beatae similique, accusamus odio expedita minus illum?</p>
+    </div>
+  </div>
+</body>
+</html>
